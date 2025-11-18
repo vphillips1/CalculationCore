@@ -1,0 +1,7 @@
+/*
+. Average velocity
+. Average speed
+. Average accelerator
+. Force calculator
+
+*/
