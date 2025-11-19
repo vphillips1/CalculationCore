@@ -134,6 +134,7 @@
     <ClInclude Include="physics.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="calculated-algebra.txt" />
     <Text Include="uncalculated-financial.txt" />
     <Text Include="uncalculated-physics.txt" />
     <Text Include="uncalculated-algebra.txt" />
