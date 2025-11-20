@@ -49,6 +49,9 @@
     <Text Include="uncalculated-physics.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="calculated-algebra.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore">
