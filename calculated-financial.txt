@@ -1,0 +1,16 @@
+ROW 2 [SIMPLE INTEREST]
+Principal: $10000.000000 | Rate: 9.800000% | Time: 10.000000yr
+RESULT -> Interest: $9800.000000 | Total: $19800.000000
+---------------------------------------------------
+ROW 2 [RATE OF RETURN]
+Start: $10000.000000 | End: $25400.000000 | Time: 10.000000yr
+RESULT -> Annual Rate of Return: 9.769926%
+---------------------------------------------------
+ROW 2 [RATE OF RETURN]
+Start: $10000.000000 | End: $25400.000000 | Time: 10.000000yr
+RESULT -> Annual Rate of Return: 9.769926%
+---------------------------------------------------
+ROW 3 [COMPOUND INTEREST]
+Principal: $5000.000000 | Rate: 1.500000% | Compounds/Yr: 12.000000
+RESULT -> Interest: $389.168342 | Maturity: $5389.168342
+---------------------------------------------------
