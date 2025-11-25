@@ -38,7 +38,7 @@ bool loadData(vector<double> &params) {
 
     ifstream in(kDataFileName);
     if (!in) {
-        cerr << "[ERROR] Could not open file: " << kDataFileName << endl;
+        cerr << "ERROR: Could not open file: " << kDataFileName << endl;
         return false;
     }
 
@@ -90,7 +90,7 @@ static void appendLine(ofstream& out, const string& s) {
 void calculateSimpleInterest(const vector<double> &params, int rowNumber) {
     double P, rPercent, t, n, col5, ATarget;
     if (!getRow(params, rowNumber, P, rPercent, t, n, col5, ATarget)) {
-        cerr << "[ERROR] Invalid row number." << endl;
+        cerr << "ERROR: Invalid row number." << endl;
         return;
     }
 
@@ -186,6 +186,7 @@ void calculateRateOfReturn(const vector<double> &params, int rowNumber) {
     cout << "Time (t): " << t << " years" << endl;
     cout << "Annual Rate of Return (r): " << rPct << "% per year" << endl;
 
+    // ios:app means io stream operator, append file. It keeps the existing file the same then adds on to it.
     ofstream out(OUTPUT_FILENAME, ios::app);
     if (!out) {
         cerr << "[ERROR] Could not open " << OUTPUT_FILENAME << " for writing." << endl;
