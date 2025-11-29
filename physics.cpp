@@ -31,11 +31,11 @@ void Physics::printAverageVelocityCalc(double initPosition, double finalPosition
 {
 	double avgVelocity = findAverageVelocity(initPosition, finalPosition, initTime, finalTime);
 	cout << "Numbers given were: " << endl;
-	cout << "Initial Position: " << initPosition << " m" << endl;
-	cout << "Final Position: " << finalPosition << " m" << endl;
-	cout << "Initial Time: " << initTime << " s" << endl;
-	cout << "Final Time: " << finalTime << " s" << endl;
-	cout << "Calculated Average Velocity: " << avgVelocity << " m/s" << endl;
+	cout << "Initial Position: " << initPosition << " km" << endl;
+	cout << "Final Position: " << finalPosition << " km" << endl;
+	cout << "Initial Time: " << initTime << " hr" << endl;
+	cout << "Final Time: " << finalTime << " hr" << endl;
+	cout << "Calculated Average Velocity: " << avgVelocity << " km/hr" << endl;
 }
 
 double Physics::findAverageSpeed(double initPosition, double finalPosition, double initTime, double finalTime)
@@ -51,11 +51,11 @@ void Physics::printAverageSpeedCalc(double initPosition, double finalPosition, d
 {
 	double avgSpeed = findAverageSpeed(initPosition, finalPosition, initTime, finalTime);
 	cout << "Numbers given were: " << endl;
-	cout << "Initial Position: " << initPosition << " m" << endl;
-	cout << "Final Position: " << finalPosition << " m" << endl;
-	cout << "Initial Time: " << initTime << " s" << endl;
-	cout << "Final Time: " << finalTime << " s" << endl;
-	cout << "Calculated Average Speed: " << avgSpeed << " m/s" << endl;
+	cout << "Initial Position: " << initPosition << " km" << endl;
+	cout << "Final Position: " << finalPosition << " km" << endl;
+	cout << "Initial Time: " << initTime << " hr" << endl;
+	cout << "Final Time: " << finalTime << " hr" << endl;
+	cout << "Calculated Average Speed: " << avgSpeed << " km/hr" << endl;
 }
 
 double Physics::findAverageAcceleration(double initVelocity, double finalVelocity, double initTime, double finalTime)
@@ -71,8 +71,8 @@ void Physics::printAverageAccelerationCalc(double initVelocity, double finalVelo
 {
 	double avgAcceleration = findAverageAcceleration(initVelocity, finalVelocity, initTime, finalTime);
 	cout << "Numbers given were: " << endl;
-	cout << "Initial Velocity: " << initVelocity << " m/s" << endl;
-	cout << "Final Velocity: " << finalVelocity << " m/s" << endl;
+	cout << "Initial Velocity: " << initVelocity << " km/hr" << endl;
+	cout << "Final Velocity: " << finalVelocity << " km/hr" << endl;
 	cout << "Initial Time: " << initTime << " s" << endl;
 	cout << "Final Time: " << finalTime << " s" << endl;
 	cout << "Calculated Average Acceleration: " << avgAcceleration << " m/s^2" << endl;
